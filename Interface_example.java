@@ -1,4 +1,5 @@
-// Simple program on interface
+// Simple program on interface 
+// -> "default" keyword must be used before a method if we are declaring a method inside an interface
 interface F1{
     int a=10;
     public void name();
