@@ -14,11 +14,11 @@ class Branch extends Employee{
     String branch[] = {"Pune", "Mumbai", "Banglore"};
     void inBranch()
     {
-        System.out.println("\nBranch Class Method called!!");
+        System.out.println("\nBranch Class Method called!!\n");
         System.out.println(sum_employee());
     }
 }
-class Programmer extends Branch{
+class Multi_level_inheritance extends Branch{
     void display()
     {
         String name = "Poojan";
@@ -27,7 +27,7 @@ class Programmer extends Branch{
     }
 public static void main(String[] args)
 {
-    Programmer p = new Programmer();
-    p.display();
+    Multi_level_inheritance m1 = new Multi_level_inheritance();
+    m1.display();
 }
 }
