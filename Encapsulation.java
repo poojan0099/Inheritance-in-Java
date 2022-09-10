@@ -2,6 +2,7 @@
 // Access specifier is private
 // Cannot be accessed by other classes
 // get() and set() methods are used to access private members.
+// better control flexibility and security
 public class Encapsulation {
 	private int age;   // Encapsulating data members as 'private'
 	private int id;
